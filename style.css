@@ -62,9 +62,26 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .banner img {
-    max-width: 275px; 
+    max-width: 200px; 
     height: auto; 
     margin-left: 20px; 
+}
+.second-banner img {
+    max-width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+.second-banner {
+    background-image: url(https://wallpaperaccess.com/full/887850.jpg);
+    background-size: cover ;
+    background-position: center;
+    color: #b22222;
+    padding: 120px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) ;
 }
 .dva-banner {
     display: flex;
@@ -82,69 +99,22 @@ h1 {
     height: auto; 
     margin-right: 20px; 
 }
-.tri-banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #ffffff;
-    padding: 20px;
-    border: 1px solid #ffffff;
+.third-banner img {
+    max-width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+.third-banner {
+    background-image: url(https://wallpaperaccess.com/full/887850.jpg);
+    background-size: cover ;
+    background-position: center;
+    color: #b22222;
+    padding: 120px;
     border-radius: 20px;
     margin-bottom: 60px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.tri-banner img {
-    max-width: 200px; 
-    height: auto; 
-    margin-left: 20px; 
-}
-.ctyri-banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #ffffff;
-    padding: 20px;
-    border: 1px solid #ffffff;
-    border-radius: 20px;
-    margin-bottom: 60px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.ctyri-banner img {
-    max-width: 225px;
-    height: auto; 
-    margin-right: 20px; 
-}
-.pet-banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #ffffff;
-    padding: 20px;
-    border: 1px solid #ffffff;
-    border-radius: 20px;
-    margin-bottom: 60px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.pet-banner img {
-    max-width: 240px; 
-    height: auto; 
-    margin-left: 20px; 
-}
-.sest-banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #ffffff;
-    padding: 20px;
-    border: 1px solid #ffffff;
-    border-radius: 20px;
-    margin-bottom: 60px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.sest-banner img {
-    max-width: 330px;
-    height: auto; 
-    margin-right: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) ;
 }
 .recipe-panel {
     background-color: #f9f3e8;
