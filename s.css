@@ -45,24 +45,39 @@ h1 {
     background-size: cover;
     background-position: center;
     color: #b22222;
-    padding: 90px;
-    border-radius: 20px;
-    margin-bottom: 60px;
+    padding: 45px;
+    border-radius: 10px;
+    margin-bottom: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.second-banner img {
-    max-width: 75px;
-    height: 75px;
-    margin: 10px;
-    border-radius: 50%; 
-    object-fit: cover; 
 }
 .second-banner h1 {
     position: absolute;
-    top: 720px;
-    left: 25%;
+    top: 597px;
+    left: 13%;
     transform: translateX(-50%);
-}   
+} 
+table {
+    width: 30%;
+    margin-left: 21%;
+    border-collapse: collapse;
+    border-radius: 15px;
+    border: 3px #b22222;
+    overflow: hidden;
+}
+th, td {
+    padding: 7px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px #b22222;
+}
+td {
+    background-color: white;
+}
+th {
+    background-color: #b22222;
+    color: white;
+    font-weight: bold;
+}
 .second-banner {
     background-color: #ffffff;
     background-size: cover ;
@@ -71,23 +86,37 @@ h1 {
     padding: 120px;
     border-radius: 20px;
     margin-bottom: 60px;
-    height: 25px;
+    height: 330px;
     width: 475px;
     float: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) ;
 }
-.third-banner img {
-    max-width: 75px;
-    height: 75px;
-    margin: 10px;
-    border-radius: 50%; 
-    object-fit: cover; 
-}
 .third-banner h1 {
     position: absolute;
-    top: 720px;
-    right: 14%;
+    top: 597px;
+    right: 10%;
     transform: translateX(-50%);
+} 
+ol{
+    counter-reset: list;
+    list-style: none;
+    padding: 0px;
+    margin-right: 10px;
+} 
+li{
+    margin: 10px 0;
+    padding: 0px;
+}
+.cislo{
+   font-size: 42px;
+   font-weight: bold;
+   margin-right: 10px;
+   color: #b22222;
+   display: inline-block;
+}  
+.postup{
+    font-size: 10px;
+    display: inline-block;
 } 
 .third-banner {
     background-color: #ffffff;
@@ -97,7 +126,7 @@ h1 {
     padding: 120px;
     border-radius: 20px;
     margin-bottom: 60px;
-    height: 25px;
+    height: 330px;
     float: right;
     width: 490px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) ;
